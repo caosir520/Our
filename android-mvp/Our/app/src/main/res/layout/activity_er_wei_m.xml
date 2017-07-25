@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.caosir.our.ui.activity.ErWeiMActivity"
+    android:background="#9e9e9e">
+
+    <ImageView
+        android:id="@+id/iv_activity_erweima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/wxerweima"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333"
+        android:transitionName="erweima"/>
+
+    <TextView
+        android:id="@+id/tv_erweima_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="微信二维码"
+        android:layout_marginTop="32dp"
+        android:textSize="@dimen/text__size_max"
+        android:alpha="0.87"
+        app:layout_constraintTop_toBottomOf="@+id/iv_activity_erweima"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.502" />
+
+
+</android.support.constraint.ConstraintLayout>
